@@ -1,0 +1,13 @@
+html {
+  background: var(--cor-secundaria);
+  font-family: var(--fonte-familia-corpo);
+  color: var(--cor-contraste-escuro);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 0 20%;
+}
