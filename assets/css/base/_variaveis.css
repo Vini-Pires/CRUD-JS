@@ -1,0 +1,17 @@
+:root {
+  --fonte-familia-corpo: 'Montserrat', sans-serif;
+  --fonte-familia-logo: 'Pacifico', cursive;
+
+  --fonte-tamanho-titulo: 1.5rem;
+  --fonte-tamanho-subtitulo: 1.3rem;
+  
+  --cor-primaria: #0071ea;
+  --cor-secundaria: #d6eaff;
+  --cor-contraste-escuro: #4D4D4D;
+  --cor-contraste-claro: #fefefe; 
+  --cor-aviso: #df2525;
+  --cor-sucesso: #047900;
+  --cor-transparencia: #4d4d4d33;
+  
+  --sombra: 0 5px 10px #55a6ff38;
+}
