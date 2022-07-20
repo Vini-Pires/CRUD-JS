@@ -6,4 +6,5 @@
   color: var(--cor-contraste-escuro);
   list-style: none;
   text-transform: capitalize;
+  font-size: inherit;
 }
