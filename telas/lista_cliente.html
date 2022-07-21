@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="../assets/css/base/_variaveis.css">
   <link rel="stylesheet" href="../assets/css/base/base.css">
   <link rel="stylesheet" href="../assets/css/components/cabecalho.css">
+  <link rel="stylesheet" href="../assets/css/components/tabela.css">
+  <link rel="stylesheet" href="../assets/css/components/botao.css">
   <!-- fontes -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
@@ -33,5 +35,50 @@
       </a>
     </ul>
   </header>
+  <main class="clintes container">
+    <table class="tabela">
+      <thead class="tabela__cabecalho">
+        <tr>
+          <th class="tabela__coluna">nome</th>
+          <th class="tabela__coluna">email</th>
+          <th class="tabela__coluna">
+            <a href="#" class="tabela__link btn-simples btn-simples--add">novo cliente</a>
+          </th>
+        </tr>
+      </thead>
+      <tbody class="tabela__corpo" data-tabela>
+        <tr>
+          <td class="tabela__linha">Lcas</td>
+          <td class="tabela__linha">venganza</td>
+          <td class="tabela__linha btn">
+            <ul class="tabela__btn-controles">
+              <li>
+                <a href="" class="btn-simples btn-simples--editar">editar</a>
+              </li>
+              <li>
+                <button class="btn-simples btn-simples--excluir">excluir</button>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td class="tabela__linha">Lcas</td>
+          <td class="tabela__linha">venganza</td>
+          <td class="tabela__linha btn">
+            <ul class="tabela__btn-controles">
+              <li>
+                <a href="" class="btn-simples btn-simples--editar">editar</a>
+              </li>
+              <li>
+                <button class="btn-simples btn-simples--excluir">excluir</button>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        
+        
+      </tbody>
+    </table>
+  </main> 
 </body>
 </html>
