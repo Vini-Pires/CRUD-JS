@@ -1,0 +1,21 @@
+.btn-simples {
+  border: none;
+  background: unset;
+  cursor: pointer;
+}
+
+.btn-simples:hover {
+  text-decoration: none;
+}
+
+.btn-simples--add {
+  color: var(--cor-primaria);
+}
+
+.btn-simples--editar {
+  color: var(--cor-sucesso);
+}
+
+.btn-simples--excluir {
+  color: var(--cor-aviso);
+}
